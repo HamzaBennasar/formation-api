@@ -1,0 +1,10 @@
+### Create a formation
+POST http://localhost:8080/formations
+content-type: application/json
+
+{
+  "title": "Angular",
+  "description": "Apprendre Angular de A à Z",
+  "location": "Bruxelles",
+  "date": "2026-12-01"
+}
